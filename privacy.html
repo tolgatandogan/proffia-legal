@@ -36,7 +36,7 @@
 <div class="wrap">
   <a class="back" href="index.html">&larr; Proffia</a>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: August 16, 2026</p>
+  <p class="updated">Last updated: October 6, 2026</p>
 
   <p>This Privacy Policy explains what data Proffia ("we", "us") collects when you use the Proffia mobile app, why we collect it, and what rights you have over it.</p>
 
@@ -62,12 +62,14 @@
   <h2>3. Third Parties We Use</h2>
   <p>To operate the App, uploaded photos and generation requests pass through the following service providers, each acting under their own privacy/security terms:</p>
   <ul>
-    <li><strong>Cloud compute provider</strong> — runs the AI models that generate your images.</li>
-    <li><strong>Cloud storage provider</strong> — stores uploaded photos and generated images.</li>
-    <li><strong>Database/authentication provider (Supabase)</strong> — stores your anonymous account, credit balance, and generation history.</li>
+    <li><strong>Google (Gemini AI service)</strong> — your uploaded selfie and the template photo you chose are sent to Google's Gemini image-generation API to create your image. This is the step that processes your face photo with a third-party AI service; the App asks for your explicit consent before your first upload.</li>
+    <li><strong>Modal</strong> — runs the server function that prepares and relays the generation request.</li>
+    <li><strong>Cloudflare (Workers and R2 storage)</strong> — handles the App's API and stores uploaded photos and generated images.</li>
+    <li><strong>Supabase</strong> — stores your anonymous account, credit balance, and generation history.</li>
     <li><strong>RevenueCat</strong> — manages subscription and purchase state.</li>
     <li><strong>Apple App Store / Google Play</strong> — process payments; Proffia never sees your card details.</li>
   </ul>
+  <p>We do not use your photos to train AI models and do not sell them. You can withdraw consent at any time by not uploading further photos and by requesting deletion of your data (Section 6).</p>
 
   <h2>4. Data Retention</h2>
   <p>We retain your uploaded photos, generated images, and account data for as long as your account is active, so you can access your generation history. You can request deletion at any time (Section 6).</p>
@@ -76,7 +78,7 @@
   <p>Proffia is not directed at anyone under 18. We do not knowingly collect data from anyone under 18. If you believe a minor has used the App, contact us and we will delete the associated data.</p>
 
   <h2>6. Your Rights</h2>
-  <p>Depending on where you live, you may have the right to access, correct, export, or delete your data. To exercise any of these rights, including full account and photo deletion, email <a href="mailto:support@proffia.ai">support@proffia.ai</a> — we'll act on verified requests within a reasonable time.</p>
+  <p>Depending on where you live, you may have the right to access, correct, export, or delete your data. In the App, open Settings and tap &ldquo;Delete my data&rdquo; to send us a prefilled deletion request. You can also email <a href="mailto:phantomgamelab@gmail.com">phantomgamelab@gmail.com</a> — we'll act on verified requests within a reasonable time.</p>
 
   <h2>7. International Transfers</h2>
   <p>Our service providers may process and store data in countries other than your own. Where required, we rely on those providers' own compliance mechanisms (such as standard contractual clauses) for cross-border transfers.</p>
@@ -88,7 +90,7 @@
   <p>We may update this Privacy Policy as the App evolves. Material changes will be reflected by updating the "Last updated" date above.</p>
 
   <h2>10. Contact</h2>
-  <p>Questions about this policy or your data? Email <a href="mailto:support@proffia.ai">support@proffia.ai</a>.</p>
+  <p>Questions about this policy or your data? Email <a href="mailto:phantomgamelab@gmail.com">phantomgamelab@gmail.com</a>.</p>
 
   <div class="note">This page describes the App's actual current data flows. It is not a substitute for review by a qualified lawyer in your jurisdiction (e.g. for GDPR/KVKK-specific disclosures) before relying on it for a commercial public launch.</div>
 </div>
